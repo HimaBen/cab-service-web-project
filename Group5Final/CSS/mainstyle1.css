@@ -1,0 +1,85 @@
+h1{
+	color : #FFF400;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: helvetica;
+    font-size: 300%;
+}
+
+h1#mid{
+	color : #FFF400;
+	text-align: center;
+	margin-top: 5%;
+	font-family: helvetica;
+    font-size: 300%;
+	word-spacing: 10px;
+	text-shadow: 3px 2px #582A72;
+	padding: 10px 70px;
+}
+
+#homebg{
+	color:#8919E9;
+	margin-left: 20px;
+	font-family: helvetica;
+    font-size: 300%;
+}
+
+body{
+	background-image: url("../Images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+table#t1 {
+    width: 100%; 
+    background-color: #0D0A0F;
+	color:#FFF400;
+	border-collapse: collapse;
+}
+
+table#t2 {
+    width: 60%; 
+	height: 80%;
+    background-image: url("../Images/bg1.jpg");
+	background-size: contain;
+	color:#FFF400;
+	border-collapse: collapse;
+}
+
+a#a1:link {
+	font-family: helvetica;
+    font-size: 150%;
+    color: #8919E9; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a#a1:visited {
+    color: #8919E9;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a#a1:hover {
+    color: #8919E9;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a#a1:active {
+    color: #8919E9;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+a#a2{
+	font-family: helvetica;
+    font-size: 150%;
+    color: #FFF400; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+

@@ -1,0 +1,33 @@
+<html>
+ 	<head>
+		<title>calculator</title>
+                <script type="text/javascript" src="script1.js"></script>
+                <link rel="stylesheet" type="text/css" href="CSS\mainstyle.css"> 
+	</head>
+        <body>
+           <form action ="flm.cgi" name="aa" >
+    	   <h1>Taxi Cost Calculator</h1>
+          
+             
+          
+               <P>Vehicle Type:
+               <select name=vt ></p>
+                <option>car</option> 
+                 <option>van</option>
+                </select>  
+               
+               <p>Enter above distance:
+               <input type=text name=d>km</p>
+      
+              
+                <input type=reset value=reset>
+              </form><br>
+              <button 
+                 onclick="document.getElementById('demo').innerHTML=calculateTr()">The cost is?
+                </button><br><br>
+              
+              <a id="a1" href="booking.php" target="_top">Do you wish to book...?</a><br><br>
+
+              <a id="a1" href="login\new\welcome.php" target="_top">logout</a>
+    </body>
+</html>
